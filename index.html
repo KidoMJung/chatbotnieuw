@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat Bot</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+    <body>
+        <div class="top">
+            <img src="./images/logo.svg" >
+            <img src="./images/chatbot.svg">
+        </div>
+        
+        <div class="chat-screen">
+            <div id="output" class="messages user-messages">   
+            </div>
+
+            <div id="robotMessages" class="messages robot-messages">
+                <img src="./images/avatar.svg" >
+                <div id="chabot_output"></div>
+                
+            </div>
+        
+            <form autocomplete="off">
+                <input id="input" value="" type="text" placeholder="Type your message here..">
+                <img src="./images/fill-1.svg" >
+            </form>
+
+        </div>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+        <script src="./js/speak.js"></script>
+
+        <script src="./js/custom.js"></script>
+    </body>
+</html>
